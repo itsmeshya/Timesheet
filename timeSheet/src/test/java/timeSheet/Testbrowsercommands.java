@@ -12,7 +12,7 @@ public class Testbrowsercommands {
 		System.out.println("Title "+driver.getTitle());
 		System.out.println("Current URL "+driver.getCurrentUrl());
 		System.out.println("PageSource "+driver.getPageSource());
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 }
