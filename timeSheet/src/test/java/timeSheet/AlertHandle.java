@@ -24,7 +24,7 @@ public class AlertHandle {
 						
 			driver.findElement(By.id("timerAlertButton")).click();
 			
-			Alert alt=driver.switchTo().alert();
+			//Alert alt=driver.switchTo().alert();
 			
 			WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 			wait.until(ExpectedConditions.alertIsPresent());
